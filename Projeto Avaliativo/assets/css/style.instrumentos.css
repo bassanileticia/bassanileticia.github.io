@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    color: sienna;
+    background-color: cornsilk;
+    font-family: "zalando Sans Expanded";
+}
+
+h1,h2 {
+    color: brown;
+    font-size: 30px;
+    background-color: darksalmon;
+}
+
+p {
+    font-size: 20px;
+}
+
+aside {
+    color: brown;
+    font-size: 20px;
+}
+
+#tituloum {
+    background-color: darksalmon;
+    color: brown;
+    font-size: 30px;
+}
+
+aside {
+    font-size: 20px;
+}

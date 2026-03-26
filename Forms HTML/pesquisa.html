@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pesquisa de Disciplinas</title>
+    <link rel="stylesheet" href="assets/css/style.pesquisa.css">
+</head>
+<body>
+    
+    <img src="assets/img/logo Sesi.jpg" class="logo">
+    
+    <nav>
+    <a href="index.html">Início</a> |
+    <a href="cadastro.html">Cadastro</a> |
+    <a href="contato.html">Contato</a> |
+    <a href="pesquisa.html">Pesquisa</a>
+    </nav>
+
+<h1>Pesquisa de Disciplinas</h1>
+
+<form action="pesquisa.php" method="get">
+
+    <label>Nome da disciplina:</label><br>
+    <input type="text" name="disciplina"><br><br>
+
+    <label>Categoria:</label><br>
+    <input type="text" name="categoria" placeholder="Ex: Exatas, Humanas, Linguagens"><br><br>
+
+    <label>Carga horária mínima:</label><br>
+    <input type="number" name="carga_min"><br><br>
+
+    <label>Carga horária máxima:</label><br>
+    <input type="number" name="carga_max"><br><br>
+
+    <button type="submit">Pesquisar</button>
+
+</form>
+
+<footer>
+    <p>&copy; 2026 - Portal do Aluno | Desenvolvido por Letícia Bassani</p>
+</footer>
+
+</body>
+</html>
